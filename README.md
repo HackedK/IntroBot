@@ -11,5 +11,5 @@ ffmpeg-binaries v3.2.2
 node-opus" v0.3.2
 
 # Commands
-!join - Brings Introbot to the voice channel where the caller is located.
+!join - Brings Introbot to the voice channel where the caller is located.<br/>
 !leave - remove Introbot from the voice channel.
