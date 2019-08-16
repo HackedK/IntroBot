@@ -1,6 +1,5 @@
 # IntroBot
-This is discord bot that plays intro music for the specific user.
-
+This is discord bot that plays assigned intro music for the specific user.
 # Systems
 Node.js v10.16.1
 # Dependencies
