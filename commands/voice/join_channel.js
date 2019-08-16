@@ -13,10 +13,11 @@ class JoinChannelCommand extends commando.Command{
     async run(message, args){
         if(message.member.voiceChannel){
             if(!message.guild.voiceConnection){
-                message.member.voiceChannel.join()
-                    .then(connection =>{
+                message.member.voiceChannel
+                .join()
+                .then(connection =>{
                         message.reply("Successfully Joined!");
-                    })
+                })
             }
         }else{
             message.reply("You must be in a voice channel");
